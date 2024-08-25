@@ -24,10 +24,18 @@ the shot starts unlit, then when it's hit it becomes complete. Or a
 shot profile might specify that it's flashing slowly, and each hit
 makes it flash faster and faster until it's been hit enough times, etc.
 
-You can specify different shot profile on a per-mode basis, meaning a
+In previous versions of MPF, you could specify different shot profiles
+on the same shot on a per-mode basis, meaning the same
 shot can have one behavior in the base mode and then take on another
-behavior when a higher-priority mode is started. The tracking of various
-states of the shot profiles is maintained on a per-mode basis.
+behavior when a higher-priority mode is started. Shots are no longer definable
+outside of mode configuration files, and are no longer allowed to be
+defined in multiple places.
+
+The current best practice for shot overriding is to define your base shots
+in your base mode. When higher priority want to override behaviors on a
+certain shot, declare a new shot with a similar name in the new mode, using
+the same switch and optionally using the `block: true` option on the
+shot_profile to prevent lower priority modes from processing the switch hit.
 
 You can group multiple shots together into *shot groups* for group-level
 functionality like posting events when all the shots in a group in the
