@@ -53,16 +53,17 @@ for example.)
 
 Single value, type: `boolean` (Yes/No or True/False). Default: `false`
 
-Lets you control whether hits to this shot are propagated down to lower
-priority modes. The default value is true if you don't specify this,
-meaning that blocking is enabled
+Lets you control whether hits to the related switch are propagated down to lower
+priority modes. The default value is False if you don't specify this option,
+meaning that blocking is disabled and propagation is allowed.
 
-If you have `block: true` in a shot profile, then hits to that shot when
-that profile is applied only are registered in the highest mode where
-that shot is enabled. If you set `block: false`, then when a shot is hit
-in one mode it will also look down to lower priority modes where that
-shot is enabled. If that lower priority mode has a different profile
-applied then it will also register a hit event based on that profile.
+When a switch is hit, shots tied to the switch are processed from higher
+priority to lower. If you have `block: true` in a shot profile in a certain mode,
+shots tied to that switch from any lower priority mode will NOT be processed
+or advanced. If you set `block: false`, after processing a higher priority mode,
+the switch hit will cause any lower priority shots to register the hit
+and behave appropriately.
+
 This will continue until it reaches a level with `block: true` or until
 it reaches the end of the mode list.
 
@@ -72,26 +73,29 @@ Imagine you have four lanes at the top of your machine which you use in
 your base mode in a normal lane-change fashion. (Lanes are unlit by
 default, hit a lane and they light, complete all four lanes for an
 award.) Now imagine you also use those lanes for a skillshot where one
-of the lanes is flashing and you try to hit it while the skillshot is
-enabled. In this case, you'd have different shot profiles for each
-mode, perhaps the default profile in your base mode (with unlit->lit
-states) and a skillshot profile in your skill shot mode (with
-flashing->complete states).
+of the lanes is flashing at a time, and you try to hit the flashing lane
+while the skill shot is enabled.
 
-By default, if the player hits the a lane when the skill shot mode is
-running, the skillshot profile is the active profile so it's the shot
-that gets the hit. But then when the skill shot mode ends, the lane the
-player just hit is not lit, since that shot profile was not active when
-it was hit. (In other words, the skillshot blocked the hit event.) So if
-you add `block: false` to your skillshot shot profile, then when the
-shot is hit when the skill shot mode is running, it will receive the hit
-and advance the shot from flashing to complete. Then the lower base mode
-will also get the shot, and it will advance its state from unlit to lit.
-The lights for the shot will only reflect the skillshot lights since
-it's the higher priority, however, you will get
+In this case, you'd have different shots and shot profiles for each
+mode. Your base mode might have the default profile (with unlit->lit
+states) and a skillshot profile in your skill shot mode (with
+flashing->complete states). For our example game we do not want to
+count the skillshot rollover as a normal rollover, so we add `block: true`
+to the skillshot profile. The skillshot mode is higher priority than base,
+and is configured to begin on ball start. This means it will be the active
+profile for the player's plunge onto the playfield.
+
+Our player launches, and hits the skillshot lane! The skillshot shot moves
+from flashing to completed, and a moment later the skillshot mode ends, revealing
+that the shot is now unlit as per the base mode, since the skillshot profile
+blocked the lower mode processing on the switch.
+
+If we change the skillshot profile to `block: false` and start again,
+our player will launch again and hit the lane again, advancing the skill shot
+to completed as before, but when the skillshot mode ends, it reveals that
+the rollover lane has also moved to the lit state. Following your event log,
+you'll also see events for both shot hits:
 *yourshot_skillshot_flashing_hit* and *yourshot_default_unlit_hit*
-events since both the hits registered because you set the skillshot
-profile not to block the hit.
 
 ### loop:
 
