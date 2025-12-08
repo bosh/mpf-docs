@@ -242,6 +242,21 @@ Single value, type: `string` name of a
 On which playfield is this shot? This is only relevant when you have
 multiple playfields. It is used mostly for ball search.
 
+### priority:
+
+Single value, type: `integer`. Default: `0`
+
+The priority shift (offset from the mode priority that the shot is inside) of various behaviors associated with the shot.
+For example, if your mode has a priority of 100 and your shot has a priority of 20, those values will be combined to create a shot
+priority baseline value of 120.
+
+The specific things affected by this combined shot priority are:
+
+* The switch handlers used by the shot to detect when its `switches:` and `delay_switches:` are processed.
+* Shows played by the shot (via shot profile) use this base for their own priority (and may be further modified.)
+* Ordering of shot processing regarding "block" behavior (where a higher priority shot may prevent a lower priority from scoring.)
+
+
 ### profile:
 
 Single value, type: `string` name of a
