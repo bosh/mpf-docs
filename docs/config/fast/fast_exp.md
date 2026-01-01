@@ -27,7 +27,7 @@ The connection baud rate.
 
 ### boards:
 
-Dict of string board names to dicts of EXP board properties. Defaults to empty.
+Subconfig of string board names to [fast:exp:board](fast_exp_board.md) configs with your EXP board properties. Defaults to empty.
 
 Example:
 
@@ -41,17 +41,6 @@ fast:
       playfield_0081:
         model: FP-EXP-0081
 ```
-
-#### model:
-
-The product number of the IO board. E.G. `FP-EXP-0081`
-
-#### ignore_led_errors:
-
-Single value, boolean, default: `false`
-
-If false, LED hex communication decode errors will be raised as errors when encountered from this board.
-If you encounter instability due to these errors, set this to true to silently ignore them.
 
 ## Using exp_int
 
