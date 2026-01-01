@@ -852,6 +852,7 @@ nav:
       - "fadecandy:": config/fadecandy.md
       - "fast:": config/fast.md
       - "fast:exp:": config/fast/fast_exp.md
+      - "fast:exp:board:": config/fast/fast_exp_board.md
       - "fast:net:": config/fast/fast_net.md
       - "fast:aud:": config/fast/fast_aud.md
       - "fast_coils:": config/fast_coils.md
