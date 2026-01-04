@@ -29,7 +29,7 @@ Note that the Playfield Interchange board is pass-through, and is not listed in 
 
 Example:
 
-```yaml
+``` yaml
 fast:
   net:
     controller: neuron

@@ -64,7 +64,7 @@ There is also a special wildcard / catch-all that can be used to address ALL lig
 Using the asterisk (or star) instead of a tag name will make the setting apply to every light.
 This is **not** a true wildcard matcher like you can use with filesystem searches (e.g. where "file_12*.txt" might match "file_123.txt" and also "file_12345.txt").
 
-```yaml
+``` yaml
 light_player:
   turn_everything_on_event:
     "*": on

@@ -182,7 +182,7 @@ In order to access these Neuron LED headers, you must define a parallel structur
 
 Example:
 
-```yaml
+``` yaml
 fast:
   exp_int:
     boards:
