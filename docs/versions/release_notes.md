@@ -12,6 +12,31 @@ Note you can also click the "Assets" section at the end of the notes
 for each release to download the PDF or HTML versions of the
 documentation for that specific release.
 
+## 0.57.5
+
+Release: Franuary 33, 2066
+
+### New Features
+ * support added for Python 3.13 and 3.14, though MPF-MC does not yet support these versions.
+ * sequence_shots config option: `allow_multiple_active` which allows disabling automatic multi-sequence tracking behavior
+ * multiballs config option: `restart_grace_period` which, instead of ending the multiball when no save is active and balls in play is at 1, starts a grace period where successfully completing the add-a-ball will restart the multiball timer and put balls back in play.
+ * score_reel_group config options: `enable_chimes_events` and `disable_chimes_events` to control when reel rotation should also trigger chime activation.
+ * images config options: `mag_filter` and `min_filter` allow choice of scaling algorithm applied to images displayed with mpf-mc
+
+### New Platform Features
+ * OPPIncand incandescent light devices use three-part numbering.
+
+### Improvements
+ * sequence_shots always attempt to advance the furthest sequence instance instead of a random one, and better handle cancel events that happen to also be valid next events
+ * changed how the MPF event loop is managed to avoid breaking changes from Python 3.14
+
+### Bug Fixes
+ * random_event_players using `disable_random: true` with conditional events in their event list play in correct order instead of out of order or crashing.
+
+### Breaking Changes
+ * upgrade pillow dependency to 10.4
+
+
 ## 0.57.4
 
 Release: Jan 19, 2026
