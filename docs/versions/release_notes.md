@@ -46,6 +46,7 @@ This means that it is the best version to upgrade to as a last step _before_ upg
 ### Improvements
  * sequence_shots always attempt to advance the furthest sequence instance instead of a random one, and better handle cancel events that happen to also be valid next events
  * changed how the MPF event loop is managed to avoid breaking changes from Python 3.14
+ * updated VPE dependencies and added Ping RPC to VPE service
 
 ### Bug Fixes
  * random_event_players using `disable_random: true` with conditional events in their event list play in correct order instead of out of order or crashing when conditions change.
