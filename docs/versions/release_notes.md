@@ -14,7 +14,7 @@ documentation for that specific release.
 
 ## 0.80.0
 
-Release: Feb X, 2026
+Release: Mar X, 2026
 
 ### New Features
 * Changed the media controller from MPF-MC to Godot Media Controller (GMC)
@@ -28,7 +28,7 @@ Release: Feb X, 2026
 
 ## 0.57.5
 
-Release: Feb Y, 2026
+Release: Mar Y, 2026
 
 ### New Features
  * support added for Python 3.13 and 3.14, though MPF-MC does not yet support these versions.
@@ -43,9 +43,11 @@ Release: Feb Y, 2026
 ### Improvements
  * sequence_shots always attempt to advance the furthest sequence instance instead of a random one, and better handle cancel events that happen to also be valid next events
  * changed how the MPF event loop is managed to avoid breaking changes from Python 3.14
+ * updated VPE dependencies and added Ping RPC to VPE service
 
 ### Bug Fixes
  * random_event_players using `disable_random: true` with conditional events in their event list play in correct order instead of out of order or crashing.
+ * random_event_players using conditional events will fall back properly if all conditions are false. If no fallback is given, the last event in the list will be posted
 
 ### Breaking Changes
  * upgrade pillow dependency to 10.4
