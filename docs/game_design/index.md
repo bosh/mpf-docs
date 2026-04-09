@@ -9,7 +9,7 @@ This section assumes that you already configured all your hardware
 devices (especially all your
 [ball device](../config/ball_devices.md)). If
 you did not configure your hardware please do that first. You can go
-through the [tutorial](../tutorial/index.md)
+through the [tutorial](../tutorials/legacy_mc/index.md)
 or have a look a the [mechs section](../mechs/index.md).
 
 Video about how to structure your modes:

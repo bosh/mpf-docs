@@ -66,7 +66,7 @@ activated while a ball is in play during a game, which means they
 automatically deactivate themselves during attract mode and if the
 player tilts. (You can override these default settings as well as
 configure additional MPF events that will cause them to activate or
-deactivate. See the [autofire_coils:](../config/autofire_coils.md) section of the configuration file reference for details,
+deactivate. See the [autofire_coils:](../../config/autofire_coils.md) section of the configuration file reference for details,
 though you don't have to do that now.)
 
 Remember if you want to adjust the strength of these coils, you can do

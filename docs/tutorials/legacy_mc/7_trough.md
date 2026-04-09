@@ -19,7 +19,7 @@ In MPF, a "ball device" is any physical mechanism in your machine that
 holds a ball.
 
 You can read more about ball devices in the
-[Ball Devices](../mechs/ball_devices/index.md) documentation,
+[Ball Devices](../../mechs/ball_devices/index.md) documentation,
 which we recommend that you do now to familiarize yourself with the
 concepts. (You don't have to understand everything about them for now,
 just skim through that link so you get the basics.)
@@ -38,7 +38,7 @@ all of them.
 Instead, we have several tutorials. :)
 
 So your next step is to visit the
-[Troughs / Ball Drains](../mechs/troughs/index.md) documentation which
+[Troughs / Ball Drains](../../mechs/troughs/index.md) documentation which
 lists all the options (with pictures), as well as links to step-by-step
 guides which walk you through the setup of the particular type of trough
 or ball drain you have in your machine.

@@ -25,7 +25,7 @@ switches:
 
 Just like the special-purpose tags we used when configuring the ball
 devices, MPF uses some
-special purpose tags for [switches](../config/switches.md), too. One of them is `start`, as MPF watches for switches
+special purpose tags for [switches](../../config/switches.md), too. One of them is `start`, as MPF watches for switches
 tagged with "start" to start games and add players to running games.
 
 Sometimes people ask "Why do you use a tag for this? Why not just look
@@ -88,7 +88,7 @@ switches:
 ```
 
 Note: The tags playfield_active and above the start tag are special
-purpose tags for [switches](../config/switches.md).
+purpose tags for [switches](../../config/switches.md).
 
 While you're at it, create a keyboard key mapping for this switch in
 the `keyboard:` section of your config, like this:

@@ -188,7 +188,7 @@ A few caveats to this early bare-bones game:
     out any balls that enter. We'll get to that later.)
 * By default MPF is configured to allow a maximum of 4 players per
     game, with 3 balls per game. You can change this in the
-    [game:](../config/game.md) section of the machine
+    [game:](../../config/game.md) section of the machine
     config.
 
 ## 5. "Playing" a game without a physical machine attached
@@ -212,7 +212,7 @@ complete game on your computer keyboard. Here's how you do it:
 4.  If you do not have a coil-fired plunger, push the "P" key (or
     whatever key you mapped to your plunger lane switch) to un-toggle
     that switch which simulates the ball leaving the plunger lane. Note:
-    The toggle option in the [keyboard:](../config/keyboard.md) section is useful for testing your game from your
+    The toggle option in the [keyboard:](../../config/keyboard.md) section is useful for testing your game from your
     computer when you're not around your physical machine.
 5.  Now you can "flip" with the "Z" and "?" keys.
 6.  After you get bored of this, push the "1" key to activate a trough

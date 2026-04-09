@@ -34,7 +34,7 @@ You certainly don't have to read through all the documentation to start
 this tutorial. However, the documentation is arranged in the order you
 should read it, so if you haven't read the stuff leading up to this
 point, please do that now. (If you're reading this online, start with
-the "[MPF overview: How MPF works](../start/index.md)" entry on the left.
+the "[MPF overview: How MPF works](../../start/index.md)" entry on the left.
 If you're reading a PDF, please turn to Page 1. :)
 
 ## 3. Install MPF
@@ -46,7 +46,7 @@ board computer or Raspberry Pi or whatever you ultimately plan to put in
 your pinball machine. For now just install it on your laptop.
 
 MPF runs on Windows, Mac, and Linux. You can find the installation
-instructions [here](../install/index.md).
+instructions [here](../../install/index.md).
 
 Go do that now, and make sure that you get both MPF and the MPF-MC installed.
 
@@ -73,12 +73,11 @@ MPF 0.51.0 and 0.51.2 and 0.51.56 have the same functions and features.)
 
     We highly recommend that you use the latest version of MPF, especially
     if you're starting out and don't have config files to migrate. To find
-    out which version of MPF is the latest, visit the [MPF Users Google
-    Group](../community/index.md) and look at
-    the banner welcome message at the top of the page.
+    out which version of MPF is the latest, visit the [MPF Users Google Group](../../community/index.md)
+    and look at the banner welcome message at the top of the page.
 
 If this command gives you an error, then go back to the
-[Downloading & Installing MPF (2023 Version)](../install/index.md) section to make sure MPF
+[Downloading & Installing MPF (2023 Version)](../../install/index.md) section to make sure MPF
 is installed. If it prints a version number lower than , then install
 the latest version of MPF. And if it shows that you have a newer version
 of MPF (based on the first two numbers), then go to

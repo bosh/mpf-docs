@@ -24,7 +24,7 @@ including:
 
 * [Demo Man](demo_man.md)
 * [MC (Media Controller) Demo](mc_demo.md)
-* [Tutorial config files](../tutorial/index.md)
+* [Tutorial config files](../tutorials/legacy_mc/index.md)
 
 Full details about the mpf-examples project and how to download it are
 [here](mpf-examples.md).

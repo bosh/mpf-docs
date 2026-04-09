@@ -84,7 +84,7 @@ keyboard:
 ```
 
 You can also read more about the `keyboard:` section in the
-[Tutorial step 6: Add keyboard control](../../tutorial/6_keyboard.md) documentation.
+[Tutorial step 6: Add keyboard control](../../tutorials/legacy_mc/6_keyboard.md) documentation.
 
 ## Key & key combination entries
 

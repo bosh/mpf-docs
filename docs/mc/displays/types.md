@@ -62,7 +62,7 @@ Before we go into the details of all the various display components,
 let's start with an overview of how the MPF display architecture works.
 (If you don't care about the details and just want to start using your
 display, you can jump directly into our
-[step-by-step tutorial](../../tutorial/index.md)
+[step-by-step tutorial](../../tutorials/legacy_mc/index.md)
 which covers how to get your display running.)
 
 Additionally, MPF also supports

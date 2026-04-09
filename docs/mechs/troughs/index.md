@@ -190,7 +190,7 @@ from there.
 
 ## Related How To guides:
 
-* [Tutorial step 7: Add your trough](../../tutorial/7_trough.md)
+* [Tutorial step 7: Add your trough](../../tutorials/legacy_mc/7_trough.md)
 * [Troubleshooting P-Roc/P3-Roc](../ball_devices/troubleshooting.md)
 
 ## Related Events

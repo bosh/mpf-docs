@@ -19,4 +19,4 @@ details. Furthermore, you can also
 ## Related How To guides
 
 * [Shows](../shows/index.md)
-* [Tutorial step 16: Create an attract mode display show](../tutorial/16_attract_mode_show.md)
+* [Tutorial step 16: Create an attract mode display show](../tutorials/legacy_mc/16_attract_mode_show.md)

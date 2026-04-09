@@ -265,7 +265,7 @@ priority mode is running.)
 
 ### Related How To Guides
 
-* [Creating your first game mode](../../tutorial/14_add_a_mode.md)
+* [Creating your first game mode](../../tutorials/legacy_mc/14_add_a_mode.md)
 * [Game Design](../../game_design/index.md)
 
 ### Related Events

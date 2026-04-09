@@ -160,7 +160,7 @@ to 2.0, and each step would be 1.5 seconds instead of 3 (since it's
 playing 2x as fast).
 
 There's a whole section of documentation on
-[shows](../shows/index.md), so review that at
+[shows](../../shows/index.md), so review that at
 some point for all sorts of details about show files, formats, etc.
 
 In addition to the `duration:` setting in each step, also notice that
@@ -192,7 +192,7 @@ game and lose their value once the game ends. To allow access to the
 score of a previous game, MPF saves this player variable to a machine
 variable which can be accessed outside the running game. A discussion of
 this and other machine variables is found
-[here](../machine_vars/index.md).
+[here](../../machine_vars/index.md).
 
 ## 3. Configure your show to play automatically
 

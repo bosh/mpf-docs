@@ -156,7 +156,7 @@ switch `s_target` is hit and the shot is in state `lit`.
 
 ## Related How To Guides
 
-* [Tutorial step 18: Add your first shot](../../tutorial/18_shots.md)
+* [Tutorial step 18: Add your first shot](../../tutorials/legacy_mc/18_shots.md)
 * [Shots on inlane/outlanes](../../mechs/switches/rollover_switches.md)
 * [Shots in game modes](../../cookbook/multiple_timed_shots.md)
 * [Implement a Mode for Top Lanes with Multiplier and Scoring](../../cookbook/top_lanes_with_multiplier.md)
