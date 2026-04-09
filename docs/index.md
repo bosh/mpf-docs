@@ -2,7 +2,7 @@
 title: Welcome to The Mission Pinball Framework!
 ---
 
-# The Mission Pinball Framework (MPF) 0.57
+# MPF - The Mission Pinball Framework
 
 *Open source software for powering real pinball machines!*
 
@@ -62,9 +62,12 @@ Pinball machines, control systems, and pinball mechs.
   * [Pinball Controllers](hardware/pinball_controllers.md)
   * [Physical Machine Building](physical_building/index.md)
 
+## Tutorial
+  * [Tutorial for MPF 0.56/0.57](tutorials/legacy_mc/index.md)
+  * Tutorial for MPF 0.80 coming soon!
+
 ## Game Programming
 
-  * [Tutorial](tutorials/legacy_mc/index.md)
   * [Pinball Mechs](mechs/index.md)
   * [Game Elements](game_logic/index.md)
   * [Modes](game_design/index.md)
@@ -74,6 +77,13 @@ Pinball machines, control systems, and pinball mechs.
   * [Cookbook](cookbook/index.md)
   * [Flowcharts](flowcharts/index.md)
 
+### Tools
+
+See the [Tools page](tools/index.md) for links to several tools that help you
+work with MPF, including the [MPF Monitor](tools/monitor/index.md), a visual utility
+that connects to a live running instance of MPF and shows you the stream of events,
+device state, player variables, etc.
+
 ## Media Controller(s)
 
   * [Media Controller](mc/displays/index.md)
@@ -82,13 +92,6 @@ Pinball machines, control systems, and pinball mechs.
   * [Widgets](mc/widgets/index.md)
   * [Sound & Audio](mc/sound/index.md)
   * [Godot MC (GMC)](gmc/index.md)
-
-## Tools
-
-See the [Tools page](tools/index.md) for links to several tools that help you
-work with MPF, including the [MPF Monitor](tools/monitor/index.md), a visual utility
-that connects to a live running instance of MPF and shows you the stream of events,
-device state, player variables, etc.
 
 ## Reference
 
