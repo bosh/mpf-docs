@@ -29,5 +29,5 @@ modes.
 ## Related How To guides
 
 * [How to design a game in MPF using Modes](../game_design/index.md)
-* [Tutorial step 14: Add your first game mode](../tutorial/14_add_a_mode.md)
+* [Tutorial step 14: Add your first game mode](../tutorials/legacy_mc/14_add_a_mode.md)
 * [Modes](../game_logic/modes/index.md)

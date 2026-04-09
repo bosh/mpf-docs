@@ -14,7 +14,7 @@ it's an older-style mono DMD, or a newer full color LED-based DMD),
 you'll be able to use the screen window we set up in this step to show
 a software version of your DMD. If you are looking to set up a Segment
 or Alphanumeric display, follow this guide to set up them up:
-[Alpha-Numeric / Segment Displays](../mc/displays/alpha_numeric.md)
+[Alpha-Numeric / Segment Displays](../../mc/displays/alpha_numeric.md)
 
 Regardless of what type of display you want to use in your final
 machine, follow this step in the tutorial and then you can set up your
@@ -22,7 +22,7 @@ final display later.
 
 ## 1. Run the media controller to see how it works
 
-Remember from the MPF [MPF overview: How MPF works](../start/index.md)
+Remember from the MPF [MPF overview: How MPF works](../../start/index.md)
 section (you read that, right?) that MPF is actually two separate
 pieces--the *game engine* and the *media controller*.
 
@@ -94,7 +94,7 @@ items at the same level are indented the same number of spaces (like
 The configuration above is creating a display called "window" which
 MPF will automatically map to the on screen popup window. There are more
 options here (especially when you get to using multiple displays)
-covered in the [Displays, DMDs, & Graphics](../mc/index.md) section
+covered in the [Displays, DMDs, & Graphics](../../mc/index.md) section
 of the documentation, but we don't need to worry about that.
 
 Also, again, if your machine is going to use a physical DMD (whether
@@ -122,7 +122,7 @@ you're familiar with those, you should be familiar with the display
 concepts in the MPF MC.
 
 First is the concept of
-[slides](../mc/slides/index.md). Just
+[slides](../../mc/slides/index.md). Just
 like a PowerPoint presentation, an MPF display is essentially a window
 frame that shows slides. Many slides can exist, but only one is shown at
 a time, and that slide takes up the entire display. (Just like how a
@@ -134,7 +134,7 @@ In MPF-MC, when one slide switches to another, there can be an animated
 
 A slide is like a blank canvas that you put things on. The "things",
 in this case, are called
-[widgets](../mc/widgets/index.md). MPF
+[widgets](../../mc/widgets/index.md). MPF
 has different types of widgets, for example, text, images, videos,
 shapes, lines, etc. When you put a widget on a slide, you can specify
 all sorts of properties, like the size, position, alignment, colors,
@@ -155,7 +155,7 @@ display.
 
 So first let's create the slide. There are several ways to do this, so
 we're just going to show you one way here and then you can read the
-full documentation on [slide](../mc/slides/index.md) later.
+full documentation on [slide](../../mc/slides/index.md) later.
 
 In MPF, all slides have names. You can define slides in the `slides:`
 section of the config. So let's create a slide called
@@ -255,7 +255,7 @@ event that's posted by MPF-MC at the earliest possible point when it is
 ready after it initially starts up (literally it's saying "the MC is
 ready"). So what we're doing here is telling MPF-MC to show our
 welcome slide as soon as it can. (Check out the
-[events](../events/index.md) documentation for
+[events](../../events/index.md) documentation for
 details on what events are.)
 
 To verify, run `mpf mc` again, and hopefully you see something like
@@ -276,7 +276,7 @@ here is:
 
 There are lots of settings for each widget type that you can use in your
 config file. Since this is a text widget, we can look at the
-[documentation for text widgets](../mc/widgets/text/index.md) to see what options we have.
+[documentation for text widgets](../../mc/widgets/text/index.md) to see what options we have.
 
 For example, let's change the font size and the color, by adding
 `font_size:` and `color:` lines:
@@ -304,7 +304,7 @@ Now when you run `mpf mc` again, you should see this:
 
 By default, the widget is centered in the slide, but you can play with
 different settings to position it wherever you want. (Check out
-[How to position widgets on slides](../mc/widgets/positioning.md) for
+[How to position widgets on slides](../../mc/widgets/positioning.md) for
 details.)
 
 ## 5. Add a second widget
@@ -408,7 +408,7 @@ posted whenever a mode starts, in the form of
 *mode_\(mode_name\)_started*.)
 
 By the way, if you're wondering how we know what events to use,
-there's an [event reference](../events/index.md) in the documentation which has a list of all the events in
+there's an [event reference](../../events/index.md) in the documentation which has a list of all the events in
 MPF as well as descriptions of when they're posted. You can use any of
 these as triggers for your slides via the `slide_player:`.
 
@@ -551,8 +551,7 @@ Also make sure you do *NOT* run MPF with the `-b` option since that
 tells it not to connect to the MC.
 
 If you get YAML errors either copy the complete example below or read
-our [Debugging YAML Parse Errors](../troubleshooting/debugging_yaml_parse_errors.md) guide.
+our [Debugging YAML Parse Errors](../../troubleshooting/debugging_yaml_parse_errors.md) guide.
 
 Most of the other errors should be pretty self-explanatory. If you get
-stuck, feel free to post to the [mpf-users Google
-group](../community/index.md).
+stuck, feel free to post to the [mpf-users Google group](../../community/index.md).

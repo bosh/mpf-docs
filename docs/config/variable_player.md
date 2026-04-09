@@ -265,7 +265,7 @@ changes.
 
 ## Related Pages:
 
-* [Tutorial step 15: Add scoring](../tutorial/15_scoring.md)
+* [Tutorial step 15: Add scoring](../tutorials/legacy_mc/15_scoring.md)
 * [Player Variables](../game_logic/players.md)
 * [Player Variables Reference](../player_vars/index.md)
 * [Machine Variables Reference](../machine_vars/index.md)

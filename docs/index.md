@@ -39,7 +39,7 @@ Join in!
 
 See the [Features](start/features.md) page for a complete list of features.
 
-[Installation Instructions](install/index.md){ .md-button } [Read the Tutorial](tutorial/index.md){ .md-button }
+[Installation Instructions](install/index.md){ .md-button } [Read the Tutorial](tutorials/legacy_mc/index.md){ .md-button }
 
 ## Getting Started
 
@@ -64,7 +64,7 @@ Pinball machines, control systems, and pinball mechs.
 
 ## Game Programming
 
-  * [Tutorial](tutorial/index.md)
+  * [Tutorial](tutorials/legacy_mc/index.md)
   * [Pinball Mechs](mechs/index.md)
   * [Game Elements](game_logic/index.md)
   * [Modes](game_design/index.md)

@@ -106,7 +106,7 @@ If you have this type of coil-powered plunger, follow the
 * [coil_fired](coil_fired.md)
 * [auto_manual](auto_manual.md)
 
-* [Tutorial step 8: Add your plunger lane](../../tutorial/8_plunger.md)
+* [Tutorial step 8: Add your plunger lane](../../tutorials/legacy_mc/8_plunger.md)
 * [Troubleshooting P-Roc/P3-Roc](../ball_devices/troubleshooting.md)
 
 ## Related Events

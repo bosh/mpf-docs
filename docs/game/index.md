@@ -4,7 +4,7 @@ title: Writing your Game Software
 
 # Programming your Game
 
-* [Tutorial](../tutorial/index.md)
+* [Tutorial](../tutorials/legacy_mc/index.md)
 * [Pinball Mechs](../mechs/index.md)
 * [Game Logic](../game_logic/index.md)
 * [Modes](../game_design/index.md)

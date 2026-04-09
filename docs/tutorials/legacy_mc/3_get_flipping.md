@@ -60,9 +60,9 @@ functionality to Atom with a free package called "autocomplete-plus".)
 
 Notice that we added tags called `left_flipper` and `right_flipper`.
 These are optional, but recommended. The reason is that MPF includes a
-[combo switch](../game_logic/combo_switches.md) feature which posts events when player switches are held in
+[combo switch](../../game_logic/combo_switches.md) feature which posts events when player switches are held in
 combination. If you add these tags to your flipper switches, an event
-called [*flipper_cancel*](../events/flipper_cancel.md) will be posted when the player hits both flipper
+called [*flipper_cancel*](../../events/flipper_cancel.md) will be posted when the player hits both flipper
 buttons at the same time which you can use to cancel shows and other
 things you want the player to be able to skip.
 
@@ -128,7 +128,7 @@ The exact number you enter for each switch is dictated by which switch
 input on your pinball controller each switch is connected to. However,
 different controllers use different number formats.
 
-The [How to configure "number:" settings](../hardware/numbers.md) guide explains how
+The [How to configure "number:" settings](../../hardware/numbers.md) guide explains how
 hardware numbering works on each of the various hardware platforms MPF
 supports, so check that out now and enter your real numbers, not the
 made-up ones we use below.
@@ -151,14 +151,14 @@ have one coil for each flipper (which we'll configure to pulse-width
 modulation for the holds).
 
 If you have no idea what we're talking about, read our
-[Flippers](../mechs/flippers/index.md) documentation for
+[Flippers](../../mechs/flippers/index.md) documentation for
 an introduction to flipper concepts, dual-wound versus single-wound,
 holding techniques, end-of-stroke switches, and a bunch of other stuff
 that's important that you probably never thought about.
 
 Here's an example of how you'd enter your coils for a machine with two
 dual-wound coils. If you have single-wound coils, or you have more than
-two flippers, refer to the [Flippers](../mechs/flippers/index.md) documentation for examples of how to configure them.
+two flippers, refer to the [Flippers](../../mechs/flippers/index.md) documentation for examples of how to configure them.
 
 ``` yaml
 coils:
@@ -201,7 +201,7 @@ because you don't have any flippers defined. Now you might be thinking,
 did, but now you have to tell MPF that you want to create a flipper
 device which links together one switch and one (or two) coils to become
 a "flipper". MPF supports dozens of different types of
-[Pinball Mechanisms](../mechs/index.md), some of which (like
+[Pinball Mechanisms](../../mechs/index.md), some of which (like
 flippers), are created by combining other devices.
 
 You create your flipper devices by adding a `flippers:` section to your
@@ -376,7 +376,7 @@ Again, recapping the rules of YAML:
     file.
 
 If you struggle to spot the problem read our
-[Debugging YAML Parse Errors](../troubleshooting/debugging_yaml_parse_errors.md) guide.
+[Debugging YAML Parse Errors](../../troubleshooting/debugging_yaml_parse_errors.md) guide.
 
 ## 6. Enabling your flippers
 
@@ -457,7 +457,7 @@ the tutorial without hardware by using the `virtual` hardware platform.
 
 Remember earlier in this step, we provided links to the documentation
 for each platform. Here is
-[a list of supported hardware platforms](../hardware/index.md) and how to set them up.
+[a list of supported hardware platforms](../../hardware/index.md) and how to set them up.
 
 You only need look at those docs for the specifics parts of the config
 that vary depending on your hardware. The good news is that 99.9% of the
@@ -508,7 +508,7 @@ switches:
 ```
 
 In case you are using
-[the Virtual Pinball (VPX) Platform](../hardware/virtual/virtual_pinball_vpx.md) the config file will look like:
+[the Virtual Pinball (VPX) Platform](../../hardware/virtual/virtual_pinball_vpx.md) the config file will look like:
 
 ``` yaml
 hardware:
@@ -701,7 +701,7 @@ mpf-users Google group. We'll incorporate your issues into this
 tutorial to make it easier for everyone in the future!
 
 If you get YAML errors either copy the complete example below or read
-our [Debugging YAML Parse Errors](../troubleshooting/debugging_yaml_parse_errors.md) guide.
+our [Debugging YAML Parse Errors](../../troubleshooting/debugging_yaml_parse_errors.md) guide.
 
 ## Check out the complete config.yaml file so far
 

@@ -12,7 +12,7 @@ your machine is in attract mode.
 
 If you're following this tutorial with virtual hardware, it's still
 worth doing this step because use can use
-[The MPF Monitor](../tools/monitor/index.md) to see your lights
+[The MPF Monitor](../../tools/monitor/index.md) to see your lights
 and LEDs in realtime against a picture of your playfield.
 
 ## 1. Understand "lights"
@@ -20,7 +20,7 @@ and LEDs in realtime against a picture of your playfield.
 In MPF, "lights" refers to bulbs that are plugged into a lamp matrix,
 or to direct-connected LEDs (which are usually RGB). So lights might be
 either LEDs or lamps in a matrix. See
-[Lights" versus "LEDs" (Some LEDs are lights?!?)](../mechs/lights/lights_versus_leds.md) for
+[Lights" versus "LEDs" (Some LEDs are lights?!?)](../../mechs/lights/lights_versus_leds.md) for
 details.
 
 ## 2. Add your lights/LEDs to your machine config file
@@ -33,7 +33,7 @@ switches and coils.
 See the relevant documentation for each for instructions how to enter
 them:
 
-* [Lights](../mechs/lights/index.md)
+* [Lights](../../mechs/lights/index.md)
 
 In the following we assume that `l_light1` and `l_light2` exist. If you
 do not have lights with that name make sure to adjust all examples
@@ -41,7 +41,7 @@ accordingly or you will run into issues.
 
 If you would like to see a fully working example you can take a look at
 the two example configurations in
-[LEDs](../mechs/lights/index.md).
+[LEDs](../../mechs/lights/index.md).
 
 ## 3. Create an attract mode light/LED show
 
@@ -200,7 +200,7 @@ the display show start playing once the attract mode starts up.
 
 If you're using the virtual interface without a real pinball machine,
 this is probably a good time to use the
-[MPF Monitor](../tools/monitor/index.md) to
+[MPF Monitor](../../tools/monitor/index.md) to
 see that the light show is actually working. (Expand the "light" or
 "LED" section in the devices window to see your lights and watch the
 colors cycle.

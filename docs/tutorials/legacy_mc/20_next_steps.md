@@ -8,10 +8,10 @@ title: "Tutorial 20: Next steps"
 
 So you got a basic running machine. Where to go next?
 
-* Setup the [MPF monitor](../tools/monitor/running.md) for faster development and light show testing
-* Try the [service cli](../running/commands/service.md) to debug all kinds of stuff
-* Configure your remaining [mechs](../mechs/index.md).
-* Add more [game logic](../game_logic/index.md) (more modes)
+* Setup the [MPF monitor](../../tools/monitor/running.md) for faster development and light show testing
+* Try the [service cli](../../running/commands/service.md) to debug all kinds of stuff
+* Configure your remaining [mechs](../../mechs/index.md).
+* Add more [game logic](../../game_logic/index.md) (more modes)
 
 Video about how to structure your modes:
 

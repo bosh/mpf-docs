@@ -16,7 +16,7 @@ lot* when you're putting together your game logic.
 ## 1. What's a shot?
 
 First, take a look at the
-[introduction to shots](../game_logic/shots/index.md) documentation to understand what a shot is.
+[introduction to shots](../../game_logic/shots/index.md) documentation to understand what a shot is.
 
 ## 2. Create your first shot
 
@@ -642,7 +642,7 @@ In this case, we defined a profile called `mode2` which has two states:
 "incomplete" and "complete" or whatever.) Note also that we added
 `speed: 5` to the flashing step. That setting will be applied to the
 "flash" show when it's played, and you can use any of the
-[show_player:](../config/show_player.md) settings there. In
+[show_player:](../../config/show_player.md) settings there. In
 this case that will play the show at 5x speed, so we'll see a very fast
 flashing.
 

@@ -45,7 +45,7 @@ Media Controller (MPF-MC). Details [here](mc_demo.md).
 
 `tutorial` (and several `tutorial_step_XX` folders)
 
-Contains the config files used in the [MPF Tutorial](../tutorial/index.md).
+Contains the config files used in the [MPF Tutorial](../tutorials/legacy_mc/index.md).
 
 `wpc_template`
 

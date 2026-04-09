@@ -47,11 +47,11 @@ switches:
 ```
 
 The tag `start` will hook the button into your game. See
-[Tutorial step 9. Add the start button](../../tutorial/9_start_button.md) for details.
+[Tutorial step 9. Add the start button](../../tutorials/legacy_mc/9_start_button.md) for details.
 You might want to integrate the button into your attract light show.
 
 ## Related How To guides:
 
-* [Tutorial step 9. Add the start button](../../tutorial/9_start_button.md)
+* [Tutorial step 9. Add the start button](../../tutorials/legacy_mc/9_start_button.md)
 * [Mechanical Switches](mechanical_switches.md)
 * [Matrix Lights (Bulbs)](../lights/matrix_lights.md)

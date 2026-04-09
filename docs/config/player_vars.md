@@ -44,7 +44,7 @@ point number or a string, you also need to set the value_type.
 
 ## Related How To guides
 
-* [Tutorial step 15: Add scoring](../tutorial/15_scoring.md)
+* [Tutorial step 15: Add scoring](../tutorials/legacy_mc/15_scoring.md)
 * [Player Variables Reference](../player_vars/index.md)
 * [Scoring](../game_logic/scoring/index.md)
 * [Player Variables](../game_logic/players.md)

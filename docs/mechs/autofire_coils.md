@@ -301,7 +301,7 @@ A few comments on the above example:
 
 ## Related How To guides
 
-* [Tutorial step 13: Add slingshots, pop bumpers, and other](../tutorial/13_add_autofires.md)
+* [Tutorial step 13: Add slingshots, pop bumpers, and other](../tutorials/legacy_mc/13_add_autofires.md)
 
 ## Related Events
 

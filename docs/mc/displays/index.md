@@ -14,7 +14,7 @@ section of your machine-wide config to create a list of displays.
 
 Note that the Tutorial includes a walk-through of setting up your first
 display. So if you just want to get it up and running quickly, check out
-the [tutorial](../../tutorial/index.md) instead
+the [tutorial](../../tutorials/legacy_mc/index.md) instead
 and then come back here for the nitty-gritty details later.
 
 Here's a very simple example that creates a display called "window"

@@ -108,7 +108,7 @@ buzzing sounds or don't feel right. See the *coils:* section of each
 hardware platform's How To guide for details for your platform.
 
 By the way there are a lot of other settings you can configure for your
-flippers. (As detailed in the [flippers:](../config/flippers.md) section of the config file reference.) They're not too
+flippers. (As detailed in the [flippers:](../../config/flippers.md) section of the config file reference.) They're not too
 important now, but we wanted to at least look at the power settings to
 make sure you don't get too far into this tutorial with a risk of
 burning them up.

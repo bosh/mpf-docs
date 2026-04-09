@@ -27,7 +27,7 @@ made, combos made, number of modes completed, aliens destroyed, etc.
 The variable player is responsible for adding and subtracting value from
 any player variable based on events that happen in MPF. You configure
 which events add or subtract value to which player variables in the
-[variable_player:](../config/variable_player.md) section of a mode's configuration file.
+[variable_player:](../../config/variable_player.md) section of a mode's configuration file.
 
 ## 2. Add a *variable_player:* section to your base.yaml mode config file
 
@@ -74,7 +74,7 @@ underlying player variable changes. So that's how the display is
 updating automatically here.
 
 By the way, there's a
-[reference list of many built-in events](../events/index.md) in the documentation, so you can browse through that to get
+[reference list of many built-in events](../../events/index.md) in the documentation, so you can browse through that to get
 an idea of the various types of events that exist which you can use to
 trigger display slides or score events.
 

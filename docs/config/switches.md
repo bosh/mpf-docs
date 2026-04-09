@@ -299,7 +299,7 @@ Special-purpose tags for switches include:
 * `start` - Lets MPF know that this switch is used to start a game.
     (Note that in MPF, the game start process is kicked off when this
     switch is released, not pressed, which allows the "time held down"
-    to be sent to MPF to perform alternate game start actions.) See: [Start Button](../tutorial/9_start_button.md).
+    to be sent to MPF to perform alternate game start actions.) See: [Start Button](../tutorials/legacy_mc/9_start_button.md).
     With MPF 0.80, the `start` tag is used by the high_score mode to select a letter or submit the name text.
 * `left_flipper` and `right_flipper` - MPF will provide automatic [flipper_cradle](../events/flipper_cradle.md)
     and [flipper_cancel](../events/flipper_cancel.md) events if your cabinet flipper buttons are tagged with

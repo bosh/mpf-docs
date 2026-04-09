@@ -138,7 +138,7 @@ See [Dual-wound Coils](dual_wound_coils.md) for more details.
 
 ## Related How To guides
 
-* [Tutorial step 3: Get flipping!](../../tutorial/3_get_flipping.md)
+* [Tutorial step 3: Get flipping!](../../tutorials/legacy_mc/3_get_flipping.md)
 * [Adjust Coil Strength (Pulse Times)](pulse_power.md)
 * [Adjust Coil Hold Power](hold_power.md)
 * [Recycle/"Cool Down" Time](recycle.md)

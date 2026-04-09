@@ -47,7 +47,7 @@ modes.)
 
 The first step to setting up a game mode is to understand how game modes
 work in MPF. So read
-[that documentation now](../game_logic/modes/index.md) to get an overview, and then come back here for the
+[that documentation now](../../game_logic/modes/index.md) to get an overview, and then come back here for the
 step-by-step walk-through of doing your first mode.
 
 ## 2. Set up the folders & files for your "base" mode
@@ -101,7 +101,7 @@ mode:
 ```
 
 There are lots more settings besides `start_events` and `priority` which
-you can set for a mode. See [mode:](../config/mode.md)
+you can set for a mode. See [mode:](../../config/mode.md)
 for details.
 
 The two settings we added here should be pretty obvious. The
@@ -116,7 +116,7 @@ The `priority: 100` means that everything this mode does will have a
 base priority of 100. We'll create future modes at higher priorities so
 they can take over the display, control lights, filter and block
 scoring, etc. (You read the
-[documentation about modes](../game_logic/modes/index.md), right?)
+[documentation about modes](../../game_logic/modes/index.md), right?)
 
 Also, when you create your own modes, keep them between 100 and
 1,000,000. MPF has some built-in modes above and below those values that
@@ -236,7 +236,7 @@ tutorial and how you can configure it to show certain slides when
 various MPF events happen.
 
 Every time a mode starts in MPF, an event called
-[mode_(name)_started](../events/mode_name_started.md) is posted. So
+[mode_(name)_started](../../events/mode_name_started.md) is posted. So
 in this case, we set our slide player entry to play when it sees the
 event `mode_base_started` which means it will play that slide as soon as
 the base mode starts. (And since you configured your base mode to start
@@ -265,16 +265,16 @@ when they're updated. In this case these are "player variables"
 because they are values that belong to the current player. More on using
 dynamic text (that is, text that automatically updated itself as
 underlying values change), is
-[here](../mc/widgets/text/text_dynamic.md).
+[here](../../mc/widgets/text/text_dynamic.md).
 
 Also note that there are some additional positioning settings, like
 `x:`, `y:`, `anchor_x:`, and `anchor_y:`. You can read about these in
-our [How to position widgets on slides](../mc/widgets/positioning.md) guide.
+our [How to position widgets on slides](../../mc/widgets/positioning.md) guide.
 
 Finally, note that the text widget showing the score has settings for
 `number_grouping:` and `min_digits:`. You can read about what those do
 in the
-[documentation for the text display widget](../mc/widgets/text/index.md).
+[documentation for the text display widget](../../mc/widgets/text/index.md).
 
 ## 7. Remove the old slide_player: ball_started entry
 

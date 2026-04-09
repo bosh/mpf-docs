@@ -30,7 +30,7 @@ coil, and some have both options. Also, some plunger lanes have a switch
 which the ball sits on while it's waiting to be plunged, and others
 don't.
 
-Visit the [Plungers & Ball Launch Devices](../mechs/plungers/index.md)
+Visit the [Plungers & Ball Launch Devices](../../mechs/plungers/index.md)
 documentation for pictures that show each option and step-by-step guides
 which walk you through configuring each type for MPF.
 
@@ -102,8 +102,8 @@ log. Otherwise, you would only see the verbose output in the logfile in
 the `logs` directory of your machine.
 
 Note: For more information about command line options take a look at
-[MPF commands](../running/commands/index.md) and
-[mpf game (command-line utility)](../running/commands/game.md).
+[MPF commands](../../running/commands/index.md) and
+[mpf game (command-line utility)](../../running/commands/game.md).
 
 Once your game is running, drop a ball into your trough and you should
 see a whole bunch of trough switches changing between active (State: 1)
@@ -176,6 +176,6 @@ start with a number.
 Finally, make sure your YAML file is formatted properly, with spaces
 (not tabs) and that you have no space to the left of your colons and
 that you do have a space to the right of your colons. See our
-[Debugging YAML Parse Errors](../troubleshooting/debugging_yaml_parse_errors.md)
+[Debugging YAML Parse Errors](../../troubleshooting/debugging_yaml_parse_errors.md)
 guide if you got YAML errors. At this point your trough is
 ready to go! Next we have to configure your plunger lane.

@@ -55,7 +55,7 @@ think it's a bit tedious to have to write the word "switch" for each
 line. After all, why can't you just enter them as `z: s_left_flipper`?
 This is because the MPF keyboard interface can actually be used to
 control
-[a lot more than just keys](../hardware/virtual/keyboard.md). The details of that are not important now, so for now just
+[a lot more than just keys](../../hardware/virtual/keyboard.md). The details of that are not important now, so for now just
 make sure your `keyboard:` section looks like the example above.
 
 ## 2. Test your new keyboard interface
@@ -121,7 +121,7 @@ This happens because MPF uses "hardware rules" to program
 quick-response mechanisms (like flippers), meaning the flippers are
 activated by the control system rather than MPF software.
 
-Read the [How MPF handles "quick response" mechs (flippers, slingshots,](../hardware/hw_rules.md) guide for
+Read the [How MPF handles "quick response" mechs (flippers, slingshots,](../../hardware/hw_rules.md) guide for
 details.
 
 ## 4. Install the MPF Monitor (optional)
@@ -129,7 +129,7 @@ details.
 While pressing keyboard switches is great and fast it would be a lot of
 work to map all your switches to the keyboard (and remembering which key
 does what). Therefore you can later use the
-[MPF monitor](../tools/monitor/running.md) to
+[MPF monitor](../../tools/monitor/running.md) to
 lay them out visually and trigger them with your mouse (you can start
 using it right now if you want).
 

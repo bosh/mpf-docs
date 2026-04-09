@@ -142,7 +142,7 @@ So just open the file (with a text editor or a free tool like
 [Notepad++](https://notepad-plus-plus.org/)) and then add that to the
 top of the file and save it. If you are familiar with an IDE such as
 VSCode or PyCharm/IntelliJ we suggest that you install the
-[MPF language server](../tools/language_server/index.md) which supports auto-completion, syntax and error
+[MPF language server](../../tools/language_server/index.md) which supports auto-completion, syntax and error
 highlighting, context help, go to definition and more.
 
 You can also follow our video about the perfect IDE setup:

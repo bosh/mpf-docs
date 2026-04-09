@@ -249,4 +249,4 @@ For dynamic values and conditional events, the prefix for lights is `device.ligh
 
 ## Related How To guides
 
-* [Tutorial step 17: Add lights (or LEDs)](../../tutorial/17_add_lights_leds.md)
+* [Tutorial step 17: Add lights (or LEDs)](../../tutorials/legacy_mc/17_add_lights_leds.md)

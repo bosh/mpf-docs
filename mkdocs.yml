@@ -18,6 +18,29 @@ plugins:
       javascript_dir: js
   - glightbox:
       manual: true # enable manual mode, all images will not be added to the lightbox effectextra_css:
+  - redirects:
+      redirect_maps:
+        tutorial/index.md: tutorials/legacy_mc/index.md
+        tutorial/1_install_mpf.md: tutorials/legacy_mc/1_install_mpf.md
+        tutorial/2_creating_a_new_machine.md: tutorials/legacy_mc/2_creating_a_new_machine.md
+        tutorial/3_get_flipping.md: tutorials/legacy_mc/3_get_flipping.md
+        tutorial/4_adjust_flipper_power.md: tutorials/legacy_mc/4_adjust_flipper_power.md
+        tutorial/5_add_a_display.md: tutorials/legacy_mc/5_add_a_display.md
+        tutorial/6_keyboard.md: tutorials/legacy_mc/6_keyboard.md
+        tutorial/7_trough.md: tutorials/legacy_mc/7_trough.md
+        tutorial/8_plunger.md: tutorials/legacy_mc/8_plunger.md
+        tutorial/9_start_button.md: tutorials/legacy_mc/9_start_button.md
+        tutorial/10_run_a_game.md: tutorials/legacy_mc/10_run_a_game.md
+        tutorial/11_add_coils_switches.md: tutorials/legacy_mc/11_add_coils_switches.md
+        tutorial/12_add_ball_devices.md: tutorials/legacy_mc/12_add_ball_devices.md
+        tutorial/13_add_autofires.md: tutorials/legacy_mc/13_add_autofires.md
+        tutorial/14_add_a_mode.md: tutorials/legacy_mc/14_add_a_mode.md
+        tutorial/15_scoring.md: tutorials/legacy_mc/15_scoring.md
+        tutorial/16_attract_mode_show.md: tutorials/legacy_mc/16_attract_mode_show.md
+        tutorial/17_add_lights_leds.md: tutorials/legacy_mc/17_add_lights_leds.md
+        tutorial/18_shots.md: tutorials/legacy_mc/18_shots.md
+        tutorial/19_unit_testing.md: tutorials/legacy_mc/19_unit_testing.md
+        tutorial/20_next_steps.md: tutorials/legacy_mc/20_next_steps.md
 
 extra_css:
   - stylesheets/mpf.css     # Sets our custom colors
@@ -322,28 +345,28 @@ nav:
 
 - Game Programming:
   - game/index.md
-  - Tutorial:
-    - tutorial/index.md
-    - 1.  Install MPF: tutorial/1_install_mpf.md
-    - 2.  Create your machine folder: tutorial/2_creating_a_new_machine.md
-    - 3.  Get flipping!: tutorial/3_get_flipping.md
-    - 4.  Adjusting your flipper power: tutorial/4_adjust_flipper_power.md
-    - 5.  Add a display: tutorial/5_add_a_display.md
-    - 6.  Add keyboard control: tutorial/6_keyboard.md
-    - 7.  Add your trough: tutorial/7_trough.md
-    - 8.  Add your plunger lane: tutorial/8_plunger.md
-    - 9.  Add the start button: tutorial/9_start_button.md
-    - 10. Run a real game!: tutorial/10_run_a_game.md
-    - 11. Add the rest of your coils & switches: tutorial/11_add_coils_switches.md
-    - 12. Add the rest of your ball devices: tutorial/12_add_ball_devices.md
-    - 13. Add "autofire" devices: tutorial/13_add_autofires.md
-    - 14. Add your first mode: tutorial/14_add_a_mode.md
-    - 15. Add scoring: tutorial/15_scoring.md
-    - 16. Add an attract mode display show: tutorial/16_attract_mode_show.md
-    - 17. Add lights (or LEDs): tutorial/17_add_lights_leds.md
-    - 18. Add your first shot: tutorial/18_shots.md
-    - 19. Testing your machine: tutorial/19_unit_testing.md
-    - 20. Next steps: tutorial/20_next_steps.md
+  - Tutorial - MPF 0.56/0.57 and the Legacy Media Controller (MC):
+    - tutorials/legacy_mc/index.md
+    - 1.  Install MPF: tutorials/legacy_mc/1_install_mpf.md
+    - 2.  Create your machine folder: tutorials/legacy_mc/2_creating_a_new_machine.md
+    - 3.  Get flipping!: tutorials/legacy_mc/3_get_flipping.md
+    - 4.  Adjusting your flipper power: tutorials/legacy_mc/4_adjust_flipper_power.md
+    - 5.  Add a display: tutorials/legacy_mc/5_add_a_display.md
+    - 6.  Add keyboard control: tutorials/legacy_mc/6_keyboard.md
+    - 7.  Add your trough: tutorials/legacy_mc/7_trough.md
+    - 8.  Add your plunger lane: tutorials/legacy_mc/8_plunger.md
+    - 9.  Add the start button: tutorials/legacy_mc/9_start_button.md
+    - 10. Run a real game!: tutorials/legacy_mc/10_run_a_game.md
+    - 11. Add the rest of your coils & switches: tutorials/legacy_mc/11_add_coils_switches.md
+    - 12. Add the rest of your ball devices: tutorials/legacy_mc/12_add_ball_devices.md
+    - 13. Add "autofire" devices: tutorials/legacy_mc/13_add_autofires.md
+    - 14. Add your first mode: tutorials/legacy_mc/14_add_a_mode.md
+    - 15. Add scoring: tutorials/legacy_mc/15_scoring.md
+    - 16. Add an attract mode display show: tutorials/legacy_mc/16_attract_mode_show.md
+    - 17. Add lights (or LEDs): tutorials/legacy_mc/17_add_lights_leds.md
+    - 18. Add your first shot: tutorials/legacy_mc/18_shots.md
+    - 19. Testing your machine: tutorials/legacy_mc/19_unit_testing.md
+    - 20. Next steps: tutorials/legacy_mc/20_next_steps.md
   - Pinball Mechs:
     - mechs/index.md
     - Flippers:
