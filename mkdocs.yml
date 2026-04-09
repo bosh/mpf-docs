@@ -18,6 +18,29 @@ plugins:
       javascript_dir: js
   - glightbox:
       manual: true # enable manual mode, all images will not be added to the lightbox effectextra_css:
+  - redirects:
+      redirect_maps:
+        tutorial/index.md: tutorials/legacy_mc/index.md
+        tutorial/1_install_mpf.md: tutorials/legacy_mc/1_install_mpf.md
+        tutorial/2_creating_a_new_machine.md: tutorials/legacy_mc/2_creating_a_new_machine.md
+        tutorial/3_get_flipping.md: tutorials/legacy_mc/3_get_flipping.md
+        tutorial/4_adjust_flipper_power.md: tutorials/legacy_mc/4_adjust_flipper_power.md
+        tutorial/5_add_a_display.md: tutorials/legacy_mc/5_add_a_display.md
+        tutorial/6_keyboard.md: tutorials/legacy_mc/6_keyboard.md
+        tutorial/7_trough.md: tutorials/legacy_mc/7_trough.md
+        tutorial/8_plunger.md: tutorials/legacy_mc/8_plunger.md
+        tutorial/9_start_button.md: tutorials/legacy_mc/9_start_button.md
+        tutorial/10_run_a_game.md: tutorials/legacy_mc/10_run_a_game.md
+        tutorial/11_add_coils_switches.md: tutorials/legacy_mc/11_add_coils_switches.md
+        tutorial/12_add_ball_devices.md: tutorials/legacy_mc/12_add_ball_devices.md
+        tutorial/13_add_autofires.md: tutorials/legacy_mc/13_add_autofires.md
+        tutorial/14_add_a_mode.md: tutorials/legacy_mc/14_add_a_mode.md
+        tutorial/15_scoring.md: tutorials/legacy_mc/15_scoring.md
+        tutorial/16_attract_mode_show.md: tutorials/legacy_mc/16_attract_mode_show.md
+        tutorial/17_add_lights_leds.md: tutorials/legacy_mc/17_add_lights_leds.md
+        tutorial/18_shots.md: tutorials/legacy_mc/18_shots.md
+        tutorial/19_unit_testing.md: tutorials/legacy_mc/19_unit_testing.md
+        tutorial/20_next_steps.md: tutorials/legacy_mc/20_next_steps.md
 
 extra_css:
   - stylesheets/mpf.css     # Sets our custom colors
