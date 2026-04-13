@@ -55,6 +55,8 @@ same version this tutorial is written for.
 This tutorial is written for MPF version 0.80. Versions 0.56 and 0.57
 have a tutorial: [Legacy MC Tutorial - Install MPF](../legacy_mc/1_install_mpf.md)
 
+For upgrading an existing `0.57.5` or `0.80.0.dev#` project to `0.80.0`, follow the [0.80 Migration Guide](../../install/0.80.md).
+
 To see what version you have, open a command prompt (like you did when
 you installed MPF) and run the following command:
 
@@ -62,7 +64,7 @@ you installed MPF) and run the following command:
 mpf --version
 ```
 
-That command should print something like `MPF v0.57.4`. Note that the
+That command should print something like `MPF v0.57.5`. Note that the
 version is made of three numbers, `x.y.z`. X is the "Major Version",
 Y is the "Minor Version", and Z is the "Patch Level". In general
 most new releases change either the Minor version or the Patch level.
@@ -77,8 +79,8 @@ requiring you to follow their upgrade guides to ensure things still work.
     The latest MPF versions can be see on PyPi on the [MPF page](https://pypi.org/project/mpf/).
 
 If this command gives you an error, then go back to the install guide to make sure MPF
-is installed. If it prints a version number lower than 0.80.0, then install
-the latest version of MPF.
+is installed. If it prints a version number lower than 0.80.0, then you still need to upgrade your
+install to the latest version of MPF.
 
 ## 4. Let's go!
 

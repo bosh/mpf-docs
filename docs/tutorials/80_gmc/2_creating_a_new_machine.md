@@ -1,0 +1,291 @@
+---
+title: "Tutorial 2: Create your machine folder"
+---
+
+# Tutorial 2: Create your machine folder
+
+--8<-- "tutorial.md"
+
+After the first step, you should have a few tools installed.
+Your versions may be slightly different, but this guide was written for:
+* Python 3.14.3
+* MPF 0.80.0
+* Godot 4.6.2
+* MPF-GMC 0.1.6
+
+<!-- You also should have been able to run an example game, to prove everything is working.
+That's incredible! Getting to this point is a significant achievement, and due to changing
+versions over time it can be a struggle to both stay upgraded and keep your tools compatible with one another.
+
+Running a demo game is great, but now it's time to create the folders and files for your own game.
+
+TODO: the 80 install guide does not reference a test game, whereas legacy has demo_man. Always more to do! -->
+
+We strongly recommend using version control, such as git, to manage your project. This will help with backups,
+collaboration, and reporting issues to the MPF development team. There is a standalone guide for setting this up [here (TODO :)](#). (TODO: There is a guide in [the Legacy version of this page](../legacy_mc/2_creating_a_new_machine.md).)
+
+## 1. Understand the "machine folder" concept
+
+In MPF, we use the term *machine folder* to describe the folder that
+contains all the files for your game. This includes config files,
+images, sounds, videos, settings, audits, modes, and everything else.
+
+The machine folder is organized into subfolders to keep everything straight.
+
+MPF machine folders are portable, meaning you can grab a machine folder
+from one computer and run it on another----even if it's a different
+platform. (Windows to Linux, Mac to Windows, etc.)
+
+!!! note
+
+    In "MPF speak", we call these "machine" folders, not "game"
+    folders. The reason is because in MPF, the term "game" means an actual
+    game-in-progress instance running on a machine (with players, balls, scores,
+    etc.). So you're really creating a pinball *machine* config, not a
+    pinball game config.
+
+## 2. Your machine folder
+
+Okay, so let's get started with your own project's machine folder.
+
+!!! info
+
+  Hopefully you created a repository in the previous step and cloned it and now have
+  your repository folder on your computer. But if you skipped that part, the
+  first step is to create an empty folder somewhere. (Anywhere you want!)
+  You can name this folder whatever you want, typically the name of your game.
+
+Let's say your repository is named "your_machine", and you cloned it into your
+`C:\pinball` folder, like this:
+
+``` doscon
+C:\pinball\your_machine
+```
+
+Obviously if you're on Mac or Linux, you won't have a C: drive, but
+that doesn't matter for the tutorial. Just clone your repository
+folder somewhere and name it whatever you want.
+
+Throughout this tutorial we'll refer to this as "your machine folder".
+
+Next create a subfolder in your new machine folder called `\config`.
+This is where your machine configuration files will live. This folder
+should be inside your machine folder, like this:
+
+``` doscon
+C:\pinball\your_machine\config
+```
+
+## 3. Create your machine config file
+
+Now let's actually create a file which will contain all the
+configuration for your pinball machine. To do that, create a file called
+`config.yaml` in your machine folder's */config* sub-folder. This file
+should be here:
+
+``` doscon
+C:\pinball\your_machine\config\config.yaml
+```
+
+Note that if you're on Windows and you just right-click and select *New
+Text Document*, make sure that Windows Explorer is configured to show
+file extensions so you actually create a file called `config.yaml` and
+not `config.yaml.txt`. Find the option in the "View" menu of Explorer.
+
+## 4. Add #config_version=6 to the top of your config file
+
+The first thing you need to do when you create any new config file for
+MPF is to add an entry on the very top line that tells MPF what
+"version" of the MPF config spec you're using for the file you're creating.
+
+So just open the file (with a text editor or a free tool like
+[VS Code](https://code.visualstudio.com),
+[Sublime](https://www.sublimetext.com/), or
+[Notepad++](https://notepad-plus-plus.org/)) and then add that to the
+top of the file and save it.
+
+For MPF 0.80, that means the start of the file should look like this:
+
+``` yaml
+#config_version=6
+```
+
+Be sure to enter this exactly as shown here, with no spaces around the equal sign.
+
+This line tells MPF which version of the config spec you have. That way
+if a future version of MPF requires changes to a config file, it can
+automatically recognize older files and update them.
+
+The current version of the config files is `6` which is what is used with
+MPF 0.57 and newer, so that's what we're adding here.
+
+At this point, your environment should look like this:
+
+![image](images/2-machine_config_folder.png)
+
+Note the folder structure, the location of the `config.yaml` file, and
+the `#config_version=6` as the only contents of that file.
+
+## 5. Commit Your Changes
+
+Save your files! MPF cannot see work in progress in your text editor. You must remember to save your files.
+
+But better than saving files is committing the changes to your version control.
+
+As you develop your game code, from time to time you should save known-working configurations as commits in version control.
+These are like save points for your codebase, and they allow you to reference previous configuration code easily, without keeping it around in comments forever.
+
+After you make some changes to your code, test them out, and do fixes and tweaks, you should commit your changes to your git repository.
+
+Using your git desktop client or command line, you can review your new changes (called "unstaged") and make sure you want to keep everything there. You can discard any changes you don't want, and "stage" the ones you want to keep.
+
+When all your changes are staged, make a new commit with a message describing what's being saved. In this case, something simple like "First commit" will be fine. Commit your changes with your message, and then "push" the changes to the remote (online) repository.
+
+Now your changes are safe and if you ever need to come back to this point (or share your code with someone else), it's ready!
+
+
+## 6. Run your game!
+
+Believe it our not, it's time to run your game! Simply open a console
+window, activate your virtual environment, change to your machine folder,
+and run `mpf -b`, like this:
+
+``` doscon
+C:\pinball\your_machine>mpf -b
+```
+
+Again, enter it as shown, with a space between `mpf` and `-b`. (The `-b`
+option tells MPF not to try to connect to a media controller for display
+and sound since we haven't set that up yet.)
+
+You should get results that look something like this:
+
+![image](images/2-fresh_mpf_running.png)
+
+This is MPF's default display when it's running. Don't worry -- this
+is not what your players will see when they play! :) We'll
+set that up later. This is more for you while you're building your MPF config.
+
+Notice a few things on this console display:
+
+* The version of MPF that's running is in the red bar along the top.
+* Any game modes that are running are in the "ACTIVE MODES" section
+    (which is just the attract mode for now since we haven't set anything else up).
+* A list of switches and their states in in the middle "SWITCHES"
+    section (which is also empty since we don't have any switches setup yet).
+* A list showing which devices are holding balls is in the "BALL COUNTS" section (also blank).
+* The current player's number, score, and ball in the "CURRENT PLAYER" section (also blank).
+* The machine folder path (in yellow in the lower left corner)
+* How much CPU and memory MPF is using. (CPU is the percentage which
+    is 0% in the screen shot which makes sense since your config is
+    blank and MPF isn't doing anything!) The memory use is the memory
+    used (RSS), then a slash, then the memory size (total that it could
+    use). In the screen shot, we see MPF is using 4MB but could use as much as 22MB.
+* How long MPF has been running (hours:minutes:seconds) in green in the lower right
+* How much total free memory your computer has (530 MB in the screen shot)
+* How much total CPU is busy on your computer overall (also 0% in the screen shot)
+
+At this point you can pretty much just sit there and watch MPF forever,
+but it won't ever do anything until you add more to your config file.
+
+To stop MPF, hit `CTRL+C`. That should
+take you back to the command window.
+
+At this point you're all set! If your machine is working like this, go
+ahead and move on to the next step. However if you got something else on
+your display or some kind of error or crash, read on below...
+
+## What if it didn't work?
+
+If you don't get an output that shows the attract mode running like the
+example above, there could be a few reasons for this, depending on the
+error.
+
+If you get a crash with a message about a "Config file version
+mismatch", like this:
+
+``` doscon
+C:\pinball\your_machine>mpf -b
+Config file version mismatch: C:\pinball\your_machine\config\config.yaml
+Traceback (most recent call last):
+  File "c:\python34\lib\site-packages\mpf\commands\game.py", line 202, in __init__
+    MachineController(mpf_path, machine_path, vars(self.args)).run()
+  File "c:\python34\lib\site-packages\mpf\core\machine.py", line 146, in __init__
+    self._load_config()
+  File "c:\python34\lib\site-packages\mpf\core\machine.py", line 405, in _load_config
+    self._load_config_from_files()
+  File "c:\python34\lib\site-packages\mpf\core\machine.py", line 425, in _load_config_from_files
+    config_type='machine'))
+  File "c:\python34\lib\site-packages\mpf\core\config_processor.py", line 24, in load_config_file
+    config = FileManager.load(filename, verify_version, halt_on_error)
+  File "c:\python34\lib\site-packages\mpf\core\file_manager.py", line 167, in load
+    halt_on_error)
+  File "c:\python34\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 255, in load
+    raise ValueError("Config file version mismatch: {}".format(filename))
+ValueError: Config file version mismatch: C:\pinball\your_machine\config\config.yaml
+```
+
+This means you don't have `#config_version=6` in the top line of your
+config file. (Make sure you include the hash mark as part of that.)
+
+If the following line at the end of your log and nothing more happens
+you probably started mpf with mc (i.e. by omitting the `-b`
+switch). This can be fixed by either running `mpf -b` or by
+making sure that the media controller is running.
+
+``` shell
+BCPClientSocket.local_display : Connecting BCP to 'local_display' at localhost:5050...
+```
+
+If you get an error that says `Could not find machine folder: 'None'`,
+that means that you ran MPF from the wrong folder. For example:
+
+``` doscon
+C:\pinball\your_machine\config>mpf
+Error. Could not find machine folder: 'None'.
+```
+
+This happens because the command prompt is in the child "config"
+folder, rather than the base machine folder. So `cd ..` up one level and
+try again.
+
+``` doscon
+C:>mpf
+Error. Could not find machine folder: 'None'.
+```
+
+Again, same thing here. The example above is in the root of C: which is
+not a valid machine folder. (It is possible to run a machine from
+another folder via command line options which is why this error says it
+couldn't find the machine "None", but for now just know that you need
+to run MPF from the root of your machine folder.)
+
+It's possible you might also get an error about "mpf" not being
+recognized. For example, on Windows:
+
+``` doscon
+C:\pinball\your_machine>mpf
+'mpf' is not recognized as an internal or external command,
+operable program or batch file.
+```
+
+Or on Mac or Linux:
+
+``` shell
+$ mpf
+-bash: mpf: command not found
+```
+
+In this case you probably don't have MPF installed right, so jump back
+to the installation part of the docs and follow that again.
+
+If you see a yellow bar and do not see the attract mode in the list of
+active modes, like this:
+
+![image](images/2-fresh_mpf_running_no_b.png)
+
+That means you did not including the `-b` option when you ran MPF. (e.g.
+you probably just ran `mpf` instead of `mpf -b`. In this case, MPF is
+trying to connect to the media controller (for your game's graphics and
+sounds), but since we haven't gotten that far in the tutorial, it
+doesn't exist and therefore MPF won't be able to connect to it.
