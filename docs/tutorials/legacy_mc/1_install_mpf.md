@@ -4,7 +4,7 @@ title: "Tutorial 1: Installing MPF on your computer"
 
 # Tutorial 1: Installing MPF on your computer
 
---8<-- "tutorial.md"
+--8<-- "legacy_tutorial.md"
 
 The first step to using MPF is to understand some basics about how it
 works and to actually get MPF installed on your computer. So that's

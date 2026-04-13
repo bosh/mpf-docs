@@ -4,7 +4,7 @@ title: "Tutorial 15: Add scoring"
 
 # Tutorial 15: Add scoring
 
---8<-- "tutorial.md"
+--8<-- "legacy_tutorial.md"
 
 By now you have a "playable" game with a base game mode, and you've
 got a score showing on the display, but it's still pretty boring since

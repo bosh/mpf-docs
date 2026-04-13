@@ -4,7 +4,7 @@ title: "Tutorial 8: Add your plunger lane"
 
 # Tutorial 8: Add your plunger lane
 
---8<-- "tutorial.md"
+--8<-- "legacy_tutorial.md"
 
 In this step we're going to create your *plunger lane* (or *shooter
 lane* or *ball launcher* or *catapult* or whatever you want to call it).

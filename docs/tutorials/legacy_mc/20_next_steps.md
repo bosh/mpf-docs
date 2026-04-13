@@ -4,7 +4,7 @@ title: "Tutorial 20: Next steps"
 
 # Tutorial 20: Next steps
 
---8<-- "tutorial.md"
+--8<-- "legacy_tutorial.md"
 
 So you got a basic running machine. Where to go next?
 

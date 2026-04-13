@@ -4,7 +4,7 @@ title: "Tutorial 10: Run a real game"
 
 # Tutorial 10: Run a real game
 
---8<-- "tutorial.md"
+--8<-- "legacy_tutorial.md"
 
 Holy Moly! It's actually time to run your first real game with MPF.
 When we say a "real" game, we're talking about with multiple players

@@ -4,7 +4,7 @@ title: "Tutorial 19: Testing your machine"
 
 # Tutorial 19: Testing your machine
 
---8<-- "tutorial.md"
+--8<-- "legacy_tutorial.md"
 
 Before you continue with your machine, we want to take a moment to let
 you know about MPF's automated testing features.

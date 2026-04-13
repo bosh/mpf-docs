@@ -4,7 +4,7 @@ title: "Tutorial 11: Add the rest of your coils and switches"
 
 # Tutorial 11: Add the rest of your coils and switches
 
---8<-- "tutorial.md"
+--8<-- "legacy_tutorial.md"
 
 Okay, so at this point you have a working game. The biggest problem you
 might run into is that if you shoot your ball into a playfield device

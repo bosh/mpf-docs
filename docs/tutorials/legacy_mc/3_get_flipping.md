@@ -4,7 +4,7 @@ title: "Tutorial 3: Get flipping!"
 
 # Tutorial 3: Get flipping!
 
---8<-- "tutorial.md"
+--8<-- "legacy_tutorial.md"
 
 There's something exciting about seeing the first flips from your own
 code, so in this step we're going to focus on getting your flippers

@@ -4,7 +4,7 @@ title: "Tutorial 16: Create an attract mode display show"
 
 # Tutorial 16: Create an attract mode display show
 
---8<-- "tutorial.md"
+--8<-- "legacy_tutorial.md"
 
 Now that we have a running game and some basic scoring, let's continue
 to make the display more useful by creating a slide show that plays

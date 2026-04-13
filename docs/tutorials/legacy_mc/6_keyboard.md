@@ -4,7 +4,7 @@ title: "Tutorial 6: Add keyboard control"
 
 # Tutorial 6: Add keyboard control
 
---8<-- "tutorial.md"
+--8<-- "legacy_tutorial.md"
 
 Once you get to this point, you should be able to run the MPF game
 engine as well as the media controller, and you should have a pop-up
