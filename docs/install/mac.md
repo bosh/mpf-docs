@@ -4,37 +4,34 @@ title: Installing MPF on Mac
 
 # Installing MPF on Mac
 
-*Last updated Mar 10, 2024*
+*Last updated April 13, 2026*
 
-!!! warning "MPF 0.80 is Coming Soon"
+!!! warning "MPF 0.80 is Available"
 
-    This installation guide is for MPF 0.57 and the legacy MC, which is being replaced in the upcoming MPF 0.80 with the Godot MC. If you are just getting started with MPF, we recommend you [install MPF 0.80](index.md) instead.
-
+    This installation guide is for MPF 0.57 and the legacy MC, which is replaced in the MPF 0.80 by the Godot MC.
+    If you are just getting started with MPF, we recommend you [install MPF 0.80](index.md) instead.
 
 ## Install Python
 
 MPF 0.57 works on macOS running on both Intel and Apple Silicon (M1/M2
-processors). For new installs, we recommend using Python 3.11, and that's
-what these instructions will show. (MPF will work with Python 3.8 - 3.11.)
+processors). For new installs, we recommend using Python 3.11+, and that's
+what these instructions will show. (MPF 0.57 will work with Python 3.8 - 3.12.)
 
 To check if you have python, type the following into your terminal:
 
 `python3 --version`
 
-You should see some output like `Python 3.9.13`, which means you have
+You should see some output like `Python 3.11.1`, which means you have
 python installed and it's a supported version. If so, proceed to the next step.
 
 To install Python on a Mac:
 
-1.  If you do not have Python, install Python 3.9.13 from python.org. If
+1.  If you do not have Python, install Python 3.11.13 from python.org. If
     you have an M1/M2 Mac, be sure to get the Universal installer, not
     the Intel one.
 
     macOS 64-bit Intel-only installer
-    (<https://www.python.org/ftp/python/3.9.13/python-3.9.13-macosx10.9.pkg>)
-
-    macOS 64-bit universal installer
-    (<https://www.python.org/ftp/python/3.9.13/python-3.9.13-macos11.pkg>)
+    (<https://www.python.org/ftp/python/3.11.9/python-3.11.9-macos11.pkg>)
 
     Choose the default installation location. If you want to install to
     a custom location, remember that location for later steps.

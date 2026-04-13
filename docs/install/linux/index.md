@@ -5,14 +5,14 @@ title: Installing MPF on Linux
 
 # Installing MPF on Linux
 
-!!! warning "MPF 0.80 is Coming Soon"
+!!! warning "MPF 0.80 is Available"
 
-    This installation guide is for MPF 0.57 and the legacy MC, which is being replaced in the upcoming MPF 0.80 with the Godot MC. If you are just getting started with MPF, we recommend you [install MPF 0.80](../index.md) instead.
+    This installation guide is for MPF 0.57 and the legacy MC, which is replaced in the MPF 0.80 by the Godot MC.
+    If you are just getting started with MPF, we recommend you [install MPF 0.80](../index.md) instead.
 
 ## OS Preparation
 
-In order to communicate with your pinball hardware over USB you need to add your user to the user group `dialout`. This is necessary regardless of the version of MPF (thus including the upcoming 0.80).
-
+In order to communicate with your pinball hardware over USB you need to add your user to the user group `dialout`. This is necessary regardless of the version of MPF (such as 0.80).
 
 ## May 2023 Update
 
@@ -24,9 +24,13 @@ install, it's the MC part that's tricky). Various jobs in there use
 both apt-get and yum to set everything up before building the MC.
 
 As part of our automated build process, we build and test MPF and MPF-MC
-against Ubuntu 20.04 & 22.04 and Debian Stretch & Buster. MPF 0.54
-supports Python 3.5 to 3.7. MPF 0.55 supports Python 3.6 to 3.9. MPF
-0.56 supports Python 3.7 to 3.9
+against Ubuntu 20.04 & 22.04 and Debian Stretch & Buster.
+
+* MPF 0.54 supports Python 3.5 to 3.7
+* MPF 0.55 supports Python 3.6 to 3.9
+* MPF 0.56 supports Python 3.7 to 3.9
+* MPF 0.57 supports Python 3.8 to 3.13
+* MPF 0.80 supports Python 3.10 to 3.14
 
 ## Installing MPF Using Our Debian Installer
 

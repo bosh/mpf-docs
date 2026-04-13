@@ -7,9 +7,10 @@ title: Installing MPF 0.57 on Windows
 This process walks through installing MPF 0.57 a Windows machine.
 
 
-!!! warning "MPF 0.80 is Coming Soon"
+!!! warning "MPF 0.80 is Available"
 
-    This installation guide is for MPF 0.57 and the legacy MC, which is being replaced in the upcoming MPF 0.80 with the Godot MC. If you are just getting started with MPF, we recommend you [install MPF 0.80](index.md) instead.
+    This installation guide is for MPF 0.57 and the legacy MC, which is replaced in the MPF 0.80 by the Godot MC.
+    If you are just getting started with MPF, we recommend you [install MPF 0.80](index.md) instead.
 
 Note that installing MPF is more complicated than a normal application.
 This is because MPF is a development tool you use to create your pinball
@@ -19,7 +20,7 @@ there are a lot of steps.
 !!! note
 
     If you're an expert Python user, you can skip most of this page. Just
-    know you need Python 3.9 (newer or older won't work, see below), and
+    know you need a recent Python, such as Python 3.11, and
     you can install MPF-MC via pip. `pip install mpf-mc` This will also
     install MPF. You probably also want to install MPF Monitor via
     `pip install mpf-monitor`.
@@ -53,7 +54,7 @@ you don't need to uninstall anything, just create a new one.
 MPF 0.57 requires Python 3.9, 3.10, 3.11, or 3.12.
 
 MPF can run on 3.8, but the MPF-MC audio doesn't work on Windows in
-those versions. So you should use Python 3.9.
+those versions. So you should use Python 3.9+.
 
 MPF 0.80 requires Python 3.10 - 3.13, with 3.14 support planned.
 If you plan on upgrading your MPF 0.57 project to 0.80, you should
@@ -67,8 +68,8 @@ If you open a command prompt on a fresh Windows machine and type
 3.7. This is not the version of Python you want. So don't do that.
 
 So instead, install Python from python.org. Here's the direct link to
-the newest installer for the final version of Python 3.9:
-<https://www.python.org/ftp/python/3.9.13/python-3.9.13-amd64.exe>
+the newest installer for the final version of Python 3.11:
+<https://www.python.org/ftp/python/3.11.9/python-3.11.9-amd64.exe>
 
 Run the installer, and choose the "Customize installation" option, and
 make sure to check the box for "py launcher" and "pip". (The others
@@ -86,7 +87,7 @@ when you type "python".)
 python --version
 ```
 
-You want a result like "Python 3.9.13" or whatever version you just
+You want a result like "Python 3.11.9" or whatever version you just
 installed. If you see a version other than that, trying running
 `python3 --version` instead.
 
@@ -120,7 +121,7 @@ You can test it by typing this command:
 mpf --version
 ```
 
-This should print out something like `MPF 0.57.0`. If you
+This should print out something like `MPF 0.57.5`. If you
 get an error, something went wrong. If you get a different version, then
 you might have an older version of MPF which you need to uninstall
 first. (See the "Remove prior versions of MPF" section above.)

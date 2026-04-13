@@ -4,11 +4,16 @@ title: Downloading & Installing MPF
 
 !!! note "New MPF Coming Soon!"
 
-    The next major release of MPF will be 0.80 and is coming soon! This exciting advancement offers a brand-new media controller based on the powerful Godot game engine. If you are just getting started with MPF, consider giving 0.80 a try!
+    The newest release of MPF is 0.80.0, releasing in April 2026! This exciting advancement offers a brand-new media controller based on the powerful Godot game engine. We recommend all new projects give 0.80 a try!
 
 # Installing MPF 0.80 or 0.57
 
 The current stable version of MPF is `0.80.0`. The long term legacy support version is `0.57.5`. MPF 0.80.0 requires the Godot MPF-GMC plugin to be version `1.0.0`.
+
+The current beta version of MPF is 0.81, at `0.81.0.dev2`, which represents the new and in-progress feature
+changes that will be isolated to only modern MPF, and not backported to legacy 0.57. The legacy beta version is `0.58.0.dev2`.
+
+Bug fixes will still be ported to legacy, but significant new features will generally not be available.
 
 --8<-- "latest_versions.md"
 
