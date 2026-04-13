@@ -4,4 +4,4 @@
 
      This tutorial is intended for MPF 0.56 and 0.57.
 
-     MPF 0.80, with the Godot Media Controller (MPF-GMC), was released in 2026, with a tutorial coming soon!
+     MPF 0.80, with the Godot Media Controller (MPF-GMC), was released in 2026, check out the [MPF 0.80 Tutorial](../80_gmc/index.md)!

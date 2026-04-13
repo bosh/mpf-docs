@@ -149,4 +149,4 @@ If you are installing MPF 0.57 to continue work on an existing MC-based project,
 ## Next step: The Tutorial!
 
 We have a tutorial which walks you through the first few steps of getting
-your project started at [MPF Tutorial](../tutorials/legacy_mc/index.md).
+your project started at [MPF Tutorial for 0.80](../tutorials/80_gmc/index.md).
