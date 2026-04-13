@@ -4,7 +4,7 @@ title: "Tutorial 9. Add the start button"
 
 # Tutorial 9. Add the start button
 
---8<-- "tutorial.md"
+--8<-- "legacy_tutorial.md"
 
 Obviously in order to play an actual game, you have to be able to start
 a game, and that requires a start button. Let's add that now.

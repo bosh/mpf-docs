@@ -4,7 +4,7 @@ title: "Tutorial 14: Add your first game mode"
 
 # Tutorial 14: Add your first game mode
 
---8<-- "tutorial.md"
+--8<-- "legacy_tutorial.md"
 
 By this point in the tutorial you should have a "playable" game,
 though it's pretty boring because there's no scoring, no modes, and

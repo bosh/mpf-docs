@@ -4,7 +4,7 @@ title: "Tutorial 18: Add your first shot"
 
 # Tutorial 18: Add your first shot
 
---8<-- "tutorial.md"
+--8<-- "legacy_tutorial.md"
 
 At this point you have a machine you can turn on, lights flash, the
 display works plays, you can hit start, you have a base mode with some

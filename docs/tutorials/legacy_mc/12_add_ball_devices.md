@@ -4,7 +4,7 @@ title: "Tutorial 12: Add the rest of your ball devices"
 
 # Tutorial 12: Add the rest of your ball devices
 
---8<-- "tutorial.md"
+--8<-- "legacy_tutorial.md"
 
 Now that you've added all your switches and coils, you'll probably
 notice that the ball is *still* getting stuck in devices on the

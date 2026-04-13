@@ -4,7 +4,7 @@ title: "Tutorial 7: Add your trough"
 
 # Tutorial 7: Add your trough
 
---8<-- "tutorial.md"
+--8<-- "legacy_tutorial.md"
 
 At this point you have a flipping machine with a display, but you don't
 have a "working" pinball machine since you can't start or play games.

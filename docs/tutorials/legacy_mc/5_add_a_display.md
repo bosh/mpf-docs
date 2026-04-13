@@ -4,7 +4,7 @@ title: "Tutorial 5: Add a display"
 
 # Tutorial 5: Add a display
 
---8<-- "tutorial.md"
+--8<-- "legacy_tutorial.md"
 
 In this step, we're going to add a graphical on-screen window which
 will help show what's happening in your machine as it runs. If you're

@@ -4,7 +4,7 @@ title: "Tutorial 2: Create your machine folder"
 
 # Tutorial 2: Create your machine folder
 
---8<-- "tutorial.md"
+--8<-- "legacy_tutorial.md"
 
 Okay, so MPF is installed and you're able to run *Demo Man*. Great! Now
 it's time to create the folders and files for your own game.

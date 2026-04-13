@@ -4,7 +4,7 @@ title: "Tutorial 4: Adjust your flipper power"
 
 # Tutorial 4: Adjust your flipper power
 
---8<-- "tutorial.md"
+--8<-- "legacy_tutorial.md"
 
 We casually mentioned in the previous step that MPF uses a very low
 default power setting for coils--mainly because we don't want to risk

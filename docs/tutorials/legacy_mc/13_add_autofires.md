@@ -4,7 +4,7 @@ title: "Tutorial 13: Add slingshots, pop bumpers, and other autofire devices"
 
 # Tutorial 13: Add slingshots, pop bumpers, and other autofire devices
 
---8<-- "tutorial.md"
+--8<-- "legacy_tutorial.md"
 
 While we're setting up the basic playfield devices, let's configure
 the "autofire" devices like slingshots and pop bumpers. (An "autofire
