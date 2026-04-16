@@ -204,7 +204,7 @@ error.
 If you get a crash with a message about a "Config file version
 mismatch", like this:
 
-``` doscon
+``` js
 C:\pinball\your_machine>mpf -b
 Config file version mismatch: C:\pinball\your_machine\config\config.yaml
 Traceback (most recent call last):
@@ -289,3 +289,12 @@ you probably just ran `mpf` instead of `mpf -b`. In this case, MPF is
 trying to connect to the media controller (for your game's graphics and
 sounds), but since we haven't gotten that far in the tutorial, it
 doesn't exist and therefore MPF won't be able to connect to it.
+
+## Running in log mode
+
+Running `mpf -b` puts you in Switch Status mode, which shows the current status
+of the game switches, along with some other useful information. This is useful when
+testing wiring and hardware, but MPF also supports a log mode, where the raw
+logs are written out to the command line. You can add the option `-t` to see this mode.
+
+So the command is `mpf -t -b`. You can also collapse simple single-letter options, like `mpf -tb`.

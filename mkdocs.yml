@@ -348,6 +348,9 @@ nav:
     - tutorials/80_gmc/index.md
     - 1.  Install MPF: tutorials/80_gmc/1_install_mpf.md
     - 2.  Create your machine folder: tutorials/80_gmc/2_creating_a_new_machine.md
+    - 3.  Get flipping!: tutorials/80_gmc/3_get_flipping.md
+    - 4.  Adjusting your flipper power: tutorials/80_gmc/4_adjust_flipper_power.md
+    - 5.  Set up Godot: tutorials/80_gmc/5_set_up_godot.md
   - Legacy Media Controller (MPF 0.56/0.57):
     - tutorials/legacy_mc/index.md
     - 1.  Install MPF: tutorials/legacy_mc/1_install_mpf.md
