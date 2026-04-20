@@ -49,4 +49,4 @@ mechanisms for the P-ROC or P3-ROC.
 * [Servos on PD-LED](servos.md)
 * [Steppers on PD-LED](steppers.md)
 * [Firmware Upgrade](firmware_upgrade.md)
-* [Troubleshooting](../../multimorphic/troubleshooting/index.md)
+* [Troubleshooting](troubleshooting.md)
