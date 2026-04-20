@@ -2,7 +2,6 @@
 title: How to test your game code
 ---
 
-
 # How to test your MPF game code
 
 (You mean, other than taking it to a show to see what breaks?)
@@ -26,16 +25,15 @@ Every time you add a feature or capability to your game, you should add a test. 
 Test Driven Developer / TDD which says you should write your tests *before* you implement a new feature. Obviously the tests will fail, but once they pass that means your feature is done!)
 
 I can 100% guarantee that writing good tests will save you time in the long run AND it will make your game more stable.
-2:36
 
 Bonus: there are “fuzz” tests too which are just automated tests that hit all the switches randomly and make sure MPF doesn't crash or hang. Good for beefing up your machine before you're done, and something you should set up EARLY and run OFTEN so you don't have surprises 2 days before a show
 
 Consolidate this content to here:
 
-* https://missionpinball.org/latest/tutorials/legacy_mc/19_unit_testing/
-* https://developer.missionpinball.org/en/dev/testing/writing_machine_tests.html
-* https://developer.missionpinball.org/en/dev/testing/tutorial/2.html
+* [Legacy Tutorial - Unit Testing](tutorials/legacy_mc/19_unit_testing.md)
+* [Developer Site - Writing Machine Tests](https://developer.missionpinball.org/en/dev/testing/writing_machine_tests.html)
+* [Developer Site - Testing Tutorial](https://developer.missionpinball.org/en/dev/testing/tutorial/2.html)
 
 Example tests:
 
-* https://github.com/GabeKnuth/BnD/blob/master/tests/test_bnd.py
+* [BnD tests](https://github.com/GabeKnuth/BnD/blob/master/tests/test_bnd.py)
