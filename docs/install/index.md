@@ -8,9 +8,7 @@ title: Downloading & Installing MPF
 
 # Installing MPF 0.80 or 0.57
 
-The current stable version of MPF is `0.57.4`, and the upcoming large release is `0.80.0`. 0.57 will enter long-term support after `0.80.0` is released out of beta.
-
-The current beta version of MPF 0.80 is `0.80.0.dev14`, which corresponds with MPF-GMC `0.1.6`, which is necessary to use Godot versions `4.5.1` and `4.6`.
+The current stable version of MPF is `0.80.0`. The long term legacy support version is `0.57.5`. MPF 0.80.0 requires the Godot MPF-GMC plugin to be version `1.0.0`.
 
 --8<-- "latest_versions.md"
 
@@ -25,9 +23,9 @@ MPF works with following platforms:
 
 ## Python Version Matching
 
-MPF 0.57 works with Python 3.8 - 3.12. Python 3.13 and 3.14 may work with 0.57, but MPF-MC is not updated to work with those Python versions yet.
+MPF 0.80 works with Python 3.10 - 3.14.
 
-MPF 0.80 works with Python 3.10 - 3.14 as of `0.80.0.dev13`.
+MPF 0.57 works with Python 3.8 - 3.12. Python 3.13 and 3.14 may work with 0.57, but MPF-MC is not updated to work with those Python versions yet.
 
 ## Migrating MPF 0.57 to MPF 0.80
 
@@ -40,36 +38,6 @@ The following video shows on Windows how to install Python, Godot Engine, VS Cod
 <div class="video-wrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rQqKG2Ie6KM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-
-<!-- TODO(Bosh) Disabled because dev1 is not a good choice given the myriad of changes on the way to dev11
-
- ## Simplest Installation: Precompiled Binary (MPF 0.80)
-
-As of MPF 0.80 we are providing precompiled binaries for new users to get up and running as easily as possible. You can see all the latest binaries at the [MPF Precompiled Binaries](https://github.com/missionpinball/prepackaged-mpf-binaries/tree/main/latest) repository, but here are some links:
-
-  *  [**Mac OSX, Apple Silicon**, MPF 0.80.0.dev1 Python 3.12.3](https://github.com/missionpinball/prepackaged-mpf-binaries/raw/main/latest/mpf-0.80.0.dev1_cpython-3.12.3_darwin_arm64)
-
-  * [**Mac OSX, Intel x86**, MPF 0.80.0.dev1, Python 3.12.3](https://github.com/missionpinball/prepackaged-mpf-binaries/raw/main/latest/mpf-0.80.0.dev1_cpython-3.12.3_darwin_x86_64)
-
-  * [**Linux, x86_64**, MPF 0.80.0.dev1, Python 3.9.12](https://github.com/missionpinball/prepackaged-mpf-binaries/raw/main/latest/mpf-0.80.0.dev1_cpython-3.9.2_linux_x86_64)
-
-***Advantages of Simplest Installation:***
-
-  * Fastest way to get MPF running on a computer
-  * No installation or dependencies necessary
-  * Always has compatible Python and package versions
-
-***Disadvantages of Simplest Installation:***
-
-  * Startup times are slower than a Standard Installation
-  * Not (yet) available for all platforms
-  * No option to customize MPF or use bleeding-edge features
-
-!!! note ""
-
-    Okay, it's not technically "pre-compiled". MPF is written in Python, which is an interpreted language, and therefore cannot be truly "compiled" into a binary. The provided binaries are special applications that bundle a copy of Python, the MPF framework modules, and all dependency packages into a single file.
-
-    The point is, you can download a single file and run it and have a working copy of MPF! -->
 
 ## Standard Installation: Pip Install (MPF 0.80)
 

@@ -12,6 +12,20 @@ Note you can also click the "Assets" section at the end of the notes
 for each release to download the PDF or HTML versions of the
 documentation for that specific release.
 
+## 0.80.0
+
+Release: April 25, 2026
+
+### New Features
+* Changed the media controller from MPF-MC to Godot Media Controller (GMC)!
+* The MPF team has worked hard to ensure that changes _not_ specific to the media controller side of MPF were backported to 0.57.5 -- changes are be limited to the GMC integration replacing the legacy MPF-MC.
+
+### Breaking Changes
+* Python versions 3.8 and 3.9 are no longer supported by MPF, but Python versions 3.13 and 3.14 are now officially supported with 0.80+!
+* Some events have been collapsed into generic versions, for consistency and ease of integration with Godot
+* To see all of the mandatory changes required to upgrade your MPF-MC based project (0.57 and before) to GMC, see the [Upgrade Guide](../install/0.80.md)
+* It is recommended if upgrading a pre 0.80 project to 0.80 to do a stepwise upgrade to 0.57.5 first, test game functionality in general, and then upgrade from 0.57.5 to 0.80.0
+
 ## 0.57.5
 
 Release: April 25, 2026
@@ -32,6 +46,7 @@ This means that it is the best version to upgrade to as a last step _before_ upg
 ### Improvements
  * sequence_shots always attempt to advance the furthest sequence instance instead of a random one, and better handle cancel events that happen to also be valid next events
  * changed how the MPF event loop is managed to avoid breaking changes from Python 3.14
+ * updated VPE dependencies and added Ping RPC to VPE service
 
 ### Bug Fixes
  * random_event_players using `disable_random: true` with conditional events in their event list play in correct order instead of out of order or crashing when conditions change.
@@ -41,7 +56,6 @@ This means that it is the best version to upgrade to as a last step _before_ upg
 
 ### Breaking Changes
  * upgrade pillow dependency to 10.4
-
 
 ## 0.57.4
 
