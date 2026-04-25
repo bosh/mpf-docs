@@ -36,12 +36,12 @@ Pi) in their machine to run MPF.
 
 ## What Python version can I use with MPF?
 
-The stable version (0.57, currently on 0.57.3) of MPF can be used with Python versions 3.8-3.12.
+The stable version (0.57, currently on 0.57.5) of MPF can be used with Python versions 3.8-3.12.
 We walk you through getting Python installed in our [installation documentation](../install/index.md).
 
 The previous version of MPF, 0.56. is only compatible with Python from version 3.7 through 3.9.
 
-The next revision (0.80.0) of MPF supports Python 3.10 - 3.13, and does not support the legacy Media Controller.
+The next revision (0.80.0) of MPF supports Python 3.10 - 3.14, and does not support the legacy Media Controller.
 The new media controller for 0.80 is called GMC, and is in active development.
 
 ## Should I use the stable version or development version?

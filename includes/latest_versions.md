@@ -4,7 +4,7 @@ If you are creating a new game and are installing all of the MPF tools from scra
 The most updated full installation (known-working on Windows and Linux) as of February 2026 is:
 
 * Python 3.14
-* MPF 0.80.0.dev13 (via pip `--pre` option)
-* MPF-GMC 0.1.6 (via Godot Asset Library)
+* MPF 0.80.0 (via pip)
+* MPF-GMC 1.0.0 (via Godot Asset Library)
 * Godot Editor 4.6
 * MPF Monitor 0.57.2
