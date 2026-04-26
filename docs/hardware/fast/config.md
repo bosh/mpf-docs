@@ -134,14 +134,14 @@ used on a Nano).
 
 So an example for Windows might look like this:
 
-```yaml
+``` yaml
 fast:
     ports: com3, com4, com5
 ```
 
 And an example for Mac or Linux might look like this:
 
-```yaml
+``` yaml
 fast:
    ports: /dev/tty.usbserial-141B, /dev/tty.usbserial-141C
 ```
@@ -168,7 +168,7 @@ default with a timeout of 1 second. If you would like to disable this,
 or you'd like to change the timeout, you can do so in the `fast:`
 section of your machine-wide config.
 
-```yaml
+``` yaml
 fast:
    ports: com3, com4, com5  # or whatever your ports are
    watchdog: 1000
