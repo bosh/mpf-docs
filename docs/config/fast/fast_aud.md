@@ -15,7 +15,7 @@ Within the [`fast:`](../fast.md) section of your machine-wide config, you config
 
 ### Sample config:
 
-```yaml
+``` yaml
 fast:
   aud:
     port: auto

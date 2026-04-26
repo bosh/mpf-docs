@@ -31,7 +31,7 @@ Subconfig of string board names to [fast:exp:board](fast_exp_board.md) configs w
 
 Example:
 
-```yaml
+``` yaml
 fast:
   exp:
     port: auto
@@ -49,7 +49,7 @@ In order to access these Neuron LED headers, you must define a parallel structur
 
 Example:
 
-```yaml
+``` yaml
 fast:
   exp:
     boards:
