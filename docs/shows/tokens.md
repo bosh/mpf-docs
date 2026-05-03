@@ -225,6 +225,20 @@ show_player:
         color1: green
         color2: blue
 ```
+## Values in tokens can be conditional
+
+Values in a token can be conditional too, for example they can depend on the player's score or any other machine or player variable.
+
+``` yaml
+show_player:
+  some_event:
+    color_cycle:
+      loops: -1
+      show_tokens:
+        led: led_02
+        color1: ("green" if (current_player.score) > 1000 else "yellow")
+        color2: blue
+```
 
 ## Shot show tokens
 

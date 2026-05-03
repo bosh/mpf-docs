@@ -175,7 +175,7 @@ from being hit for two seconds.
 
 ### disable_events:
 
-List of one (or more) device control events
+Comma separated list of one (or more) device control events
 ([Instructions for entering device control events](instructions/device_control_events.md)). Defaults to empty.
 
 Default: `None`
@@ -186,14 +186,14 @@ whatever state it's in.)
 
 ### enable_events:
 
-List of one (or more) device control events
+Comma separated list of one (or more) device control events
 ([Instructions for entering device control events](instructions/device_control_events.md)). Defaults to empty.
 
 Default: `None`
 
 Events in this list, when posted, enable this shot. If a shot is not
 enabled, then hits to it have no effect. (e.g. The shot will remain in
-whatever state it's in.)
+whatever state it's in.) If this setting is omitted, the shot is enabled by default. However if any value is set for "enable_events:", the shot will be disabled by default and will only be enabled once an enable event occurs.
 
 ### hit_events:
 
